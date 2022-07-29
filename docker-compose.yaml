@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: .
+    image: ibelousov39/ibelousov_app26
+    ports:
+      - 80:80
